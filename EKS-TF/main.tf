@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "us-east-1"
+}
+
 #VPC instantiation
 #Create VPC, IGW, Subnet (public), RT, RTA, SG
 
